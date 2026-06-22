@@ -157,11 +157,14 @@ Bounding boxes con color por clase, etiqueta `<clase> <confianza>` arriba y text
 ## Entorno
 
 ```bash
-# Activar virtual env
+# Crear entorno virtual dentro de la carpeta del proyecto
+python3 -m venv .env
+
+# Activar
 source .env/bin/activate
 
-# Dependencias
-pip install ultralytics opencv-python-headless numpy huggingface_hub mss
+# Instalar dependencias
+pip install -r requirements.txt
 
 # Aceleración Metal (Apple Silicon) — automático
 ```
