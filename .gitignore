@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.env/
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# Model cache
+.env/
+
+# Results (keep folder, ignore files)
+analyzer/results/*
+!analyzer/results/.gitkeep
+benchmark/results/*
+!benchmark/results/.gitkeep
+screens/*
+!screens/.gitkeep
+
+# Temp
+*.tmp
+/tmp/
